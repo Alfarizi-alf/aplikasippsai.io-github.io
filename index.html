@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplikasi PPS Saya</title>
-    <!-- Anda bisa menambahkan file CSS di sini jika ada -->
+
+    <!-- TAMBAHAN 1: Memuat 'penerjemah' Babel -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
 </head>
 <body>
     <h1>Selamat Datang di Aplikasi Saya</h1>
-    <p>Halaman ini sedang dalam pengembangan.</p>
+    <p>Aplikasi React saya ada di bawah ini:</p>
 
     <!-- Konten dari aplikasi React Anda akan muncul di sini -->
     <div id="root"></div>
 
-    <!-- Memuat file JavaScript Anda -->
-    <script src="Aplikasi PPS.js"></script>
+    <!-- TAMBAHAN 2: Memberitahu browser untuk menerjemahkan file ini dengan Babel -->
+    <script type="text/babel" src="Aplikasi PPS.js"></script>
+
 </body>
 </html>
